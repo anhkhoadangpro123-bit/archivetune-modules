@@ -1,0 +1,19 @@
+{
+  "name": "My module catalog",
+  "modules": [
+    {
+      "id": "org.example.my-provider",
+      "name": "My Provider",
+      "version": "1.0.0",
+      "author": "Your project name",
+      "description": "Provider for the audio service implemented by this project.",
+      "download": "./releases/my-provider-1.0.0.arch",
+      "type": "MODULE",
+      "capabilities": [
+        "searchTracks",
+        "getTrackStreamUrl"
+      ],
+      "labels": []
+    }
+  ]
+}
